@@ -29,7 +29,7 @@ public class No2 {
         awal=s.nextInt();
         System.out.println("Akhir : ");
         akhir=s.nextInt();
-        System.out.println("Deret bilangan prima antara "+awal+" dan "+akhir);
+       // System.out.println("Deret bilangan prima antara "+awal+" dan "+akhir);
         for (prima=awal; prima<=akhir; prima++){
             int x=0;
             for ( pembagi = 2; pembagi <= prima; pembagi++){
@@ -38,11 +38,18 @@ public class No2 {
                         x=1;
                     }
                     if (x != 1 && prima == pembagi){
-                        System.out.println(prima);
+                      //  System.out.println(prima);
+                        
+                        
                     }
                 }
             }
         }
+        int total=0;
+        System.out.println("output");
+        total=+prima;
+        System.out.println(total);
     }
     
 }
+
